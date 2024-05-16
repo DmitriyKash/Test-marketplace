@@ -1,0 +1,13 @@
+{
+    "name": "TON Marketplace",
+    "description": "A marketplace built on the TON blockchain",
+    "url": "https://6645ff45d35da8adeff448dc--visionary-wisp-45c0d1.netlify.app",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  
