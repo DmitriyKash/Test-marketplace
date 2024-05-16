@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import { TonConnectButton } from '@tonconnect/ui-react';
 
 // const TransactionButton = styled.button`
