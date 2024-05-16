@@ -22,25 +22,25 @@ const TonConnectComponent = () => {
     setUser(userData);
   };
 
-  const handleTransaction = async () => {
-    if (isAuthenticated && user) {
-      try {
-        const transaction = {
-          to: 'адрес_получателя', // Замените на адрес получателя
-          value: '1000000000', // Сумма в наносекундах (1 TON = 10^9 наносекунд)
-          message: 'Оплата за товар', // Дополнительное сообщение
-        };
-        // Используйте метод для отправки транзакции через SDK или TonConnectButton
-        console.log('Отправка транзакции:', transaction);
-        alert('Транзакция успешно отправлена!');
-      } catch (error) {
-        console.error('Ошибка при отправке транзакции:', error);
-        alert('Не удалось отправить транзакцию.');
-      }
-    } else {
-      alert('Сначала подключите кошелек.');
-    }
-  };
+  // const handleTransaction = async () => {
+  //   if (isAuthenticated && user) {
+  //     try {
+  //       const transaction = {
+  //         to: 'адрес_получателя', // Замените на адрес получателя
+  //         value: '1000000000', // Сумма в наносекундах (1 TON = 10^9 наносекунд)
+  //         message: 'Оплата за товар', // Дополнительное сообщение
+  //       };
+  //       // Используйте метод для отправки транзакции через SDK или TonConnectButton
+  //       console.log('Отправка транзакции:', transaction);
+  //       alert('Транзакция успешно отправлена!');
+  //     } catch (error) {
+  //       console.error('Ошибка при отправке транзакции:', error);
+  //       alert('Не удалось отправить транзакцию.');
+  //     }
+  //   } else {
+  //     alert('Сначала подключите кошелек.');
+  //   }
+  // };
 
   return (
     // <div>
