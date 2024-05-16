@@ -1,0 +1,7 @@
+{
+  "name": "Marketplace",
+  "description": "A simple marketplace application",
+  "url": "https://magnificent-bonbon-998142.netlify.app",
+  "icon": "https://magnificent-bonbon-998142.netlify.app/icon.png",
+  "permissions": ["tonconnect"]
+}

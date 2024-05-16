@@ -14,7 +14,7 @@ const App = () => {
   }, []);
 
   return (
-    <TonConnectUIProvider manifestUrl="https://magnificent-bonbon-998142.netlify.app/manifest.json">
+    <TonConnectUIProvider manifestUrl="https://magnificent-bonbon-998142.netlify.app/tonconnect-manifest.json">
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
