@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { TonConnectButton } from '@tonconnect/ui-react';
 
-const TransactionButton = styled.button`
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-`;
+// const TransactionButton = styled.button`
+//   padding: 10px 20px;
+//   font-size: 16px;
+//   background-color: #28a745;
+//   color: white;
+//   border: none;
+//   border-radius: 5px;
+//   cursor: pointer;
+//   margin-top: 10px;
+// `;
 
 const TonConnectComponent = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
