@@ -1,13 +1,7 @@
 {
-    "name": "TON Marketplace",
-    "description": "A marketplace built on the TON blockchain",
+    "name": "Marketplace",
+    "description": "A simple marketplace application",
     "url": "https://magnificent-bonbon-998142.netlify.app",
-    "icons": [
-      {
-        "src": "/icon.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      }
-    ]
+    "icon": "https://magnificent-bonbon-998142.netlify.app/icon.png",
+    "permissions": ["tonconnect"]
   }
-  
