@@ -43,13 +43,26 @@ const TonConnectComponent = () => {
   };
 
   return (
+    // <div>
+    //   {isAuthenticated ? (
+    //     <div>
+    //       <p>Пользователь: {user ? user.name : 'Нет данных'}</p>
+    //       <TransactionButton onClick={handleTransaction}>
+    //         Отправить транзакцию
+    //       </TransactionButton>
+    //       <button onClick={() => handleAuthentication(false, null)}>Выйти</button>
+    //     </div>
+    //   ) : (
+    //     <TonConnectButton 
+    //       onLogin={(userData) => handleAuthentication(true, userData)}
+    //       onLogout={() => handleAuthentication(false, null)}
+    //     />
+    //   )}
+    // </div>
     <div>
       {isAuthenticated ? (
         <div>
           <p>Пользователь: {user ? user.name : 'Нет данных'}</p>
-          <TransactionButton onClick={handleTransaction}>
-            Отправить транзакцию
-          </TransactionButton>
           <button onClick={() => handleAuthentication(false, null)}>Выйти</button>
         </div>
       ) : (
