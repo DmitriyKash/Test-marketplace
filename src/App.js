@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage';
 
 const App = () => {
   return (
-    <TonConnectUIProvider manifestUrl="http://localhost:3000/manifest.json">
+    <TonConnectUIProvider manifestUrl="https://magnificent-bonbon-998142.netlify.app/manifest.json">
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
